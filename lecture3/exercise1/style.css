@@ -1,0 +1,21 @@
+.local-time__colon {
+    animation-name: blink;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: step-start;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1; 
+    }
+
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1; 
+    }
+}

@@ -1,0 +1,33 @@
+body {
+    overflow-x: hidden;
+}
+
+.marquee-wrapper {
+    display: flex;
+}
+
+.marquee-line h1 {
+    white-space: nowrap;
+    padding-right: 1.5rem;
+}
+
+.marquee-line {
+    display: flex;
+}
+
+.marquee-line {
+    animation-name: marquee;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

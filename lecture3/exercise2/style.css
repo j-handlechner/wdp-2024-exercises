@@ -1,0 +1,8 @@
+.textreveal-wrapper {
+    overflow: hidden;
+}
+
+.textreveal-text {
+    transform: translateY(100%);
+    margin: 0;
+}
