@@ -10,3 +10,9 @@
   textreveals with gsap (HTML + CSS + JS)
 * /example3  
   infinite marquee (HTML + CSS)
+
+## /lecture4
+* /flexbox-solution 
+    * flexbox sample solution for layout
+* /grid-solution 
+    * grid sample for layout (with a little bit of flexbox)
