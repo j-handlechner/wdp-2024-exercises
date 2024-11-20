@@ -1,0 +1,170 @@
+body {
+    background-color: #F9F9F9;
+    font-family: "Helvetica Neue", sans-serif;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 25vw;
+    margin: 0 auto;
+    min-height: 5vh;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.button {
+    background-color: white;
+    padding: 1.5vh 1.5vw;
+    border-radius: 50px;
+
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-image: url('./images/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    max-width: 95vw;
+    height: 60vh;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+#hero p {
+    color: white;
+}
+
+.cards {
+    max-width: 70vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1vw;
+    margin-top: 5vh;
+}
+
+.card {
+    background-image: url('./images/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 60vh;
+    width: 33%;
+    border-radius: 10px;
+    position: relative;
+
+    color: white;
+}
+
+.card h3 {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+
+.card span {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    max-width: 80%;
+}
+
+#try-chatgpt {
+    background-color: white;
+    max-width: 70vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10vh 5vw;
+    box-sizing: border-box;
+    margin-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#try-chatgpt h2 {
+    max-width: 50%;
+    text-align: center;
+    line-height: 150%;
+    font-size: 1.7rem;
+}
+
+footer {
+    max-width: 70vw;
+    margin: 10vh auto;
+}
+
+.footer-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-credits {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    margin-top: 50vh;
+}
