@@ -1,0 +1,18 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    font-family: Arial, sans-serif;
+    font-size: 5rem;
+    color: #000000;
+}
